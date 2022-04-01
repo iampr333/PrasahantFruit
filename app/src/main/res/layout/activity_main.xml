@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@color/white"
+        android:id="@+id/numbersID"
+        android:text="    Numbers"
+        android:gravity="start|center_vertical"
+        android:textSize="20sp"
+        android:background="@color/yellow"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/familyID"
+        android:textColor="@color/white"
+        android:text="    Family Members"
+        android:gravity="start|center_vertical"
+        android:textSize="20sp"
+        android:background="@color/green"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/colorsID"
+        android:textColor="@color/white"
+        android:text="    Colors"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:background="@color/pink"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/phrasesID"
+        android:text="    Phrases"
+        android:textColor="@color/white"
+        android:gravity="start|center_vertical"
+        android:textSize="20sp"
+        android:background="@color/blue"
+        />
+
+
+</LinearLayout>
